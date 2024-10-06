@@ -1,0 +1,23 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite --config config/devtools/vite.config.js",
+        "build": "vite build --config config/devtools/vite.config.js",
+        "phpstan": "./vendor/bin/phpstan analyze -c config/devtools/phpstan.neon",
+        "pint": "./vendor/bin/pint --config config/devtools/pint.json"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.20",
+        "daisyui": "^4.12.12",
+        "laravel-vite-plugin": "^1.0.5",
+        "postcss": "^8.4.47",
+        "sass": "^1.79.4",
+        "tailwindcss": "^3.4.13",
+        "vite": "^5.4.8"
+    },
+    "dependencies": {
+        "alpinejs": "^3.14.1",
+        "htmx.org": "^2.0.3"
+    }
+}
