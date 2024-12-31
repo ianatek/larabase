@@ -29,8 +29,8 @@
         "psr-4": {
             "App\\": "app/",
             "Config\\": "config/",
-            "Database\\Factories\\": "database/factories/",
-            "Database\\Seeders\\": "database/seeders/"
+            "Database\\Factories\\": "config/database/factories/",
+            "Database\\Seeders\\": "config/database/seeders/"
         }
     },
     "autoload-dev": {

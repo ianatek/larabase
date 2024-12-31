@@ -23,6 +23,11 @@ class Application extends FoundationApplication
         return dirname(__DIR__, 2) . DIRECTORY_SEPARATOR . 'config' . DIRECTORY_SEPARATOR . 'laravel' . DIRECTORY_SEPARATOR . rtrim($path);
     }
 
+    public function databasePath($path = '')
+    {
+        return dirname(__DIR__, 2) . DIRECTORY_SEPARATOR . 'config' . DIRECTORY_SEPARATOR . 'database' . DIRECTORY_SEPARATOR . rtrim($path);
+    }
+
     public function publicPath($path = '')
     {
         return dirname(__DIR__, 2) . DIRECTORY_SEPARATOR . 'config' . DIRECTORY_SEPARATOR . 'public' . DIRECTORY_SEPARATOR . rtrim($path);
